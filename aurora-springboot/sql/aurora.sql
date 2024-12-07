@@ -742,7 +742,8 @@ CREATE TABLE `t_user_auth`  (
 -- ----------------------------
 -- Records of t_user_auth
 -- ----------------------------
-INSERT INTO `t_user_auth` VALUES (1, 1, 'admin@163.com', '$2a$10$/Z90STxVyGOIfNhTfvzbEuJ9t1yHjrkN6pBMRAqd5g5SdNIrdt5Da', 1, '182.118.236.146', '中国|河南省|洛阳市|联通', '2022-08-19 21:43:46', '2022-08-24 20:33:46', '2022-08-24 20:33:46');
+INSERT INTO `t_user_auth` VALUES (1, 1, 'admin@gmail.com', '$2a$10$/Z90STxVyGOIfNhTfvzbEuJ9t1yHjrkN6pBMRAqd5g5SdNIrdt5Da', 1, '182.118.236.146', '中国|河南省|洛阳市|联通', '2022-08-19 21:43:46', '2022-08-24 20:33:46', '2022-08-24 20:33:46');
+INSERT INTO `t_user_auth` VALUES (1, 1, 'wty8401@gmail.com', '$2a$10$Ep3e37lNOJaP/iZVXmB3Z.6UPEIYGoQFK7QW86kaYCZmeQ8fuU5Na', 1, '101.32.98.239', '日本|东京都|东京|腾讯', '2022-08-19 21:43:46', '2022-08-24 20:33:46', '2022-08-24 20:33:46');
 
 -- ----------------------------
 -- Table structure for t_user_info
@@ -765,7 +766,8 @@ CREATE TABLE `t_user_info`  (
 -- ----------------------------
 -- Records of t_user_info
 -- ----------------------------
-INSERT INTO `t_user_info` VALUES (1, 'admin@163.com', '演示账号', 'https://static.linhaojun.top/avatar/2af2e2db20740e712f0a011a6f8c9af5.jpg', '演示账号的用户简介', 'https://blog.tikshop.mom', 0, 0, '2022-08-19 21:42:04', '2022-08-24 17:11:35');
+INSERT INTO `t_user_info` VALUES (1, 'admin@gmail.com', '演示账号', 'https://static.linhaojun.top/avatar/2af2e2db20740e712f0a011a6f8c9af5.jpg', '演示账号的用户简介', 'https://admin.example.com', 0, 0, '2022-08-19 21:42:04', '2022-08-20 17:11:35');
+INSERT INTO `t_user_info` VALUES (2, 'wty8401@gmail.com', '斷捨離', 'http://101.32.98.239:9000/blog/aurora/avatar/6541b9264bb3fb2d0411c678ee7069d5.JPG', '人生是一場修行，妳我皆是世間凡人......', 'https://blog.tikshop.mom', 0, 0, '2022-08-19 21:42:04', '2022-08-24 17:11:35');
 
 -- ----------------------------
 -- Table structure for t_user_role
@@ -782,6 +784,7 @@ CREATE TABLE `t_user_role`  (
 -- Records of t_user_role
 -- ----------------------------
 INSERT INTO `t_user_role` VALUES (1, 1, 1);
+INSERT INTO `t_user_role` VALUES (2, 2, 1);
 
 -- ----------------------------
 -- Table structure for t_website_config
