@@ -16,7 +16,7 @@ CREATE TABLE `t_about`  (
 -- ----------------------------
 -- Records of t_about
 -- ----------------------------
-INSERT INTO `t_about` VALUES (1, '{\"content\":\"this is about\"}', '2022-07-24 17:22:13', '2022-09-23 14:37:34');
+INSERT INTO `t_about` VALUES (1, '{\"content\":\"這個人很懶，什麽也沒有留下......\"}', '2022-07-24 17:22:13', '2022-09-23 14:37:34');
 
 -- ----------------------------
 -- Table structure for t_article
@@ -801,7 +801,7 @@ CREATE TABLE `t_website_config`  (
 -- ----------------------------
 -- Records of t_website_config
 -- ----------------------------
-INSERT INTO `t_website_config` VALUES (1, '{\"alipayQRCode\":\"https://static.linhaojun.top/config/da4c6d8c13f66a8dd6716ddb48d73299.jpg\",\"author\":\"斷捨離\",\"authorAvatar\":\"https://static.linhaojun.top/config/6e4f47f4bb66d2d30722d20e789b220e.jpg\",\"authorIntro\":\"看不清の俗人\",\"beianNumber\":\"苏ICP备2022012376号\",\"csdn\":\"\",\"englishName\":\"Nailuix\",\"gitee\":\"\",\"github\":\"https://github.com/wuty8401/aurora\",\"isCommentReview\":0,\"isEmailNotice\":1,\"isReward\":1,\"juejin\":\"\",\"logo\":\"https://static.linhaojun.top/config/cc36e9fa5aeb214e41495c1e2268f2db.png\",\"multiLanguage\":1,\"name\":\"斷捨離\",\"notice\":\"人生是一場修行，妳我皆是世間凡人......\",\"qq\":\"840122533\",\"qqLogin\":0,\"stackoverflow\":\"\",\"touristAvatar\":\"https://static.linhaojun.top/config/2af2e2db20740e712f0a011a6f8c9af5.jpg\",\"twitter\":\"\",\"userAvatar\":\"https://static.linhaojun.top/config/0af1901da1e64dfb99bb61db21e716c4.jpeg\",\"weChat\":\"\",\"websiteCreateTime\":\"2024-12-01\",\"weiXinQRCode\":\"https://static.linhaojun.top/config/ed47edae605f74306f751c6fba9f14bd.png\",\"weibo\":\"\",\"zhihu\":\"\"}', '2022-07-24 12:05:33', '2022-08-20 12:48:28');
+INSERT INTO `t_website_config` VALUES (1, '{\"alipayQRCode\":\"https://minio.tikshop.mom/blog/aurora/config/e149420d0dee2b5cb5cb75992302707f.png\",\"author\":\"斷捨離\",\"authorAvatar\":\"https://minio.tikshop.mom/blog/aurora/config/d8f0037e507538bbbd5ca6e8faae1f8e.JPG\",\"authorIntro\":\"看不清の俗人\",\"beianNumber\":\"苏ICP备2022012376号\",\"csdn\":\"\",\"englishName\":\"Nailuix\",\"gitee\":\"\",\"github\":\"https://github.com/wuty8401/aurora\",\"isCommentReview\":0,\"isEmailNotice\":1,\"isReward\":1,\"juejin\":\"\",\"logo\":\"https://minio.tikshop.mom/blog/aurora/config/88ac22f8f166a906fb1b85f0c3e6db23.webp\",\"multiLanguage\":1,\"name\":\"斷捨離\",\"notice\":\"人生是一場修行，妳我皆是世間凡人......\",\"qq\":\"\",\"qqLogin\":0,\"stackoverflow\":\"\",\"touristAvatar\":\"https://minio.tikshop.mom/blog/aurora/config/99bd9c2018d6d07a10d1220c8350585d.jpg\",\"twitter\":\"\",\"userAvatar\":\"https://minio.tikshop.mom/blog/aurora/config/d8f0037e507538bbbd5ca6e8faae1f8e.JPG\",\"weChat\":\"\",\"websiteCreateTime\":\"2024-12-01\",\"weiXinQRCode\":\"https://minio.tikshop.mom/blog/aurora/config/a920304f411bdf1873b4abc9af282503.png\",\"weibo\":\"https://blog.tikshop.mom\",\"zhihu\":\"\"}', '2022-07-24 12:05:33', '2022-08-20 12:48:28');
 
 -- ----------------------------
 -- Table structure for t_exception_log
